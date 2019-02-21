@@ -128,12 +128,12 @@
                   <a name="test">
                   </a> <!-- test -->
                   <span class="method-name">test</span>
-                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (317, 877) is out of bounds of viewport width (1280) and height (876)
+                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: (1451, 786) is out of bounds of viewport width (1280) and height (876)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;VPC-SVELEZ&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-45-generic&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: BroswerFactory.FireFox
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 7219, moz:profile: /tmp/rust_mozprofile.8YYhmH..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0159264-084b-4579-957a-d6be388407ce
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 65.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 14963, moz:profile: /tmp/rust_mozprofile.m2zbIP..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 30ddffa8-b8fc-45fd-9fb3-0466ba4595df
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -142,9 +142,9 @@ Session ID: a0159264-084b-4579-957a-d6be388407ce
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-	at Pages.MiniTestPage.selectSymbol(MiniTestPage.java:88)
-	at Pages.MiniTestPage.selectFirstSymbol(MiniTestPage.java:54)
-	at tests.TestLoveCompatibility.test(TestLoveCompatibility.java:45)
+	at Pages.MiniTestPage.selectSymbol(MiniTestPage.java:89)
+	at Pages.MiniTestPage.selectSecondSymbol(MiniTestPage.java:60)
+	at tests.TestLoveCompatibility.test(TestLoveCompatibility.java:47)
 ... Removed 38 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -206,12 +206,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'tests.TestLoveCompatibility')
-data.setCell(0, 3, 10161);
+data.setCell(0, 3, 23835);
 window.suiteTableData['tests.TestLoveCompatibility']= { tableData: data, tableDiv: 'times-div-tests.TestLoveCompatibility'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 23 seconds</span>
               <div id="times-div-tests.TestLoveCompatibility">
               </div> <!-- times-div-tests.TestLoveCompatibility -->
             </div> <!-- times-div -->
@@ -246,11 +246,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test</span>
-                <span class="method-start">12158 ms</span>
+                <span class="method-start">10225 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">22324 ms</span>
+                <span class="method-start">34070 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

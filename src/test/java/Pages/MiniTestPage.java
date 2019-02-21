@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.Interaction;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -85,17 +86,13 @@ public class MiniTestPage {
         for(int i=0;i<moves;i++){
             WebElement li=lis.get(i);
             Actions act=new Actions(driver);
-            act.clickAndHold(li).moveByOffset(10,0).release(li).build().perform();
+            act.clickAndHold(li).moveByOffset(60,0).release(li).build().perform();
         }
 
 
 
     }
 
-    /*
-
-
-*/
     public void  getYourLoveCompatibility(){
         wait.until(ExpectedConditions.elementToBeClickable(getLoveTest));
         WebElement get=this.driver.findElement(getLoveTest);

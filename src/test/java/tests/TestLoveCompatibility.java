@@ -58,7 +58,7 @@ public class TestLoveCompatibility {
 
     @AfterTest
     public void afterTest(){
-//        this.browser.quit();
+     this.browser.quit();
     }
 
 }
