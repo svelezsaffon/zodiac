@@ -86,7 +86,7 @@ public class MiniTestPage {
         for(int i=0;i<moves;i++){
             WebElement li=lis.get(i);
             Actions act=new Actions(driver);
-            act.clickAndHold(li).moveByOffset(60,0).release(li).build().perform();
+            act.clickAndHold(li).moveByOffset(10,0).release(li).build().perform();
         }
 
 
