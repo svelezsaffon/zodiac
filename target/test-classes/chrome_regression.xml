@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite de regression"  >
+
+    <test name="Print all symbols">
+        <classes>
+            <class name="tests.TestHoroscope"/>
+        </classes>
+    </test>
+
+    <test name="Verify zodiac symbol page with a screenshot">
+        <classes>
+            <class name="tests.TestSignPage"/>
+        </classes>
+    </test>
+
+    <test name="Verify zodiac symbol love compatibility">
+        <classes>
+            <class name="tests.TestLoveCompatibility"/>
+        </classes>
+    </test>
+
+</suite>
